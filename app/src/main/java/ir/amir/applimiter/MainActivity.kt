@@ -35,7 +35,6 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import ir.amir.applimiter.ads.AdsConsentDialog
-import ir.amir.applimiter.ads.AdsDebugCard
 import ir.amir.applimiter.ads.AdsManager
 import ir.amir.applimiter.ads.ConsentStore
 import ir.amir.applimiter.service.AppLockAccessibilityService
@@ -151,10 +150,6 @@ private fun MainScreen(refreshKey: Int) {
                         )
                     }
                 }
-            }
-
-            if (BuildConfig.DEBUG) {
-                AdsDebugCard()
             }
 
             AppListScreen(refreshKey = refreshKey)

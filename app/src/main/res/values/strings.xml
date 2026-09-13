@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">مدیر زمان برنامه‌ها</string>
+    <string name="accessibility_label">محدودکننده برنامه‌ها</string>
+    <string name="accessibility_description">برای تشخیص لحظه‌ای برنامه‌ی باز و بستن آن پس از پایان زمان مجاز، این سرویس لازم است.</string>
+</resources>
